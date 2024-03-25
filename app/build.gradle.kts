@@ -62,7 +62,6 @@ dependencies {
     kapt("com.google.dagger:hilt-compiler:2.48")
 
 
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

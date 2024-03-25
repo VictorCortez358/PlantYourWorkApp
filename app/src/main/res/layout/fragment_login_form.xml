@@ -41,7 +41,7 @@
         </LinearLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/inputUsername"
+            android:id="@+id/inputUsernameLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="16dp"
@@ -50,17 +50,17 @@
             android:hint="@string/ingrese_su_usuario">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputUsername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
                 android:imeOptions="actionNext"
-                android:importantForAutofill="auto"
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/inputPassword"
+            android:id="@+id/inputPasswordLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="16dp"
@@ -69,11 +69,11 @@
             android:hint="@string/ingrese_su_contrase_a">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:imeOptions="actionDone"
-                android:importantForAutofill="auto"
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
